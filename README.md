@@ -1,4 +1,4 @@
-# File-Logger
+# File Logger
 This project is to be used for logging to the local file system during the execution of a python application.    
 
 > #### Table of Contents  
