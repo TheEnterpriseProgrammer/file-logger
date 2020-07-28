@@ -48,7 +48,7 @@ class Logger:
             raise LoggerError("Logging Level is required.")
         # Raise error if message is null
         if message is None:
-            raise LoggerError("Message is required")
+            raise LoggerError("Logging Message is required.")
         elif level.lower() in self._function_map:
                 getattr(self, self._function_map[level])(message)
 
